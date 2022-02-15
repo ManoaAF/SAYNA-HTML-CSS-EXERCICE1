@@ -4,6 +4,7 @@
 body{
     margin: 0;
     padding: 0;
+    background-image:url(../fond/background.png);
 }
 header{
     width: 100%;
@@ -38,11 +39,6 @@ li a:hover{
     padding: 10px 16px;
     background-color:#EB43A3 ;
 }
-#introduction{
-    background-image:url(../fond/background.png);
-    background-repeat: repeat;
-    background-attachment:fixed;
-}
 .container-title{
     width: 600px;
     height: 275px;
@@ -67,6 +63,7 @@ padding-top: 20%;
     margin-right: 8%;
     margin-top:-5%;
     margin-bottom: 5%;
+    box-shadow: 0 0 2rem #333;
 }
 h2{
     font-family:"Courgette", cursive ;
@@ -117,12 +114,11 @@ h3{
     color: #FFF;
     font-family:"Arial", sans-serif;
     width: 30%;
-    height: 3%;
+    height: 10%;
     background-color: #C55394;
 }
-#footer{
+footer{
     background-color: #C55394;
-    padding: 1%;
     font-family:"Arial", sans-serif ;
     font-size: smaller;
     color:#FFF;
