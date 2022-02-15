@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    background-color:#C55394 ;
+    position: fixed;
+    top: 0;
+}
+a{
+    text-decoration: none;
+    color:#FFF ;
+}
+#MyUnicorn{
+    font-family:"Courgette", cursive ;
+    float: left;
+    padding-left: 4%;
+} 
+ul{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    background-color: #C55394;
+}
+li{
+    font-family:"Arial", sans-serif ;
+    font-size: small;
+    display:inline;  
+    float: right;
+    padding: 14px;
+}
+li a:hover{
+    padding: 10px 16px;
+    background-color:#EB43A3 ;
+}
+#introduction{
+    background-image:url(../fond/background.png);
+    background-repeat: repeat;
+    background-attachment:fixed;
+}
+.container-title{
+    width: 600px;
+    height: 275px;
+    background-image: url(../fond/rainbow.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    margin-top: 2%;
+    margin-left: 30%;
+    margin-right: 20%;
+}
+h1{
+font-family:"Courgette", cursive;
+color:#C55394 ;
+text-align: center;
+padding-top: 20%;
+}
+.container-texts{
+    display: block;
+    background-color: #FFF;
+    padding: 5%;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top:-5%;
+    margin-bottom: 5%;
+}
+h2{
+    font-family:"Courgette", cursive ;
+    color: #EB43A3;
+}
+p{
+    font-family:"Arial", sans-serif ;
+}
+.row{
+    display: flex;
+}
+.column {
+    margin: -30px;
+    padding: -50px;
+}
+*{
+    box-sizing: border-box;
+}
+figure{
+    position: inherit;
+    background-color:#333 ;
+    padding:-10%;
+    color:#FFF;
+    text-align: center;
+}
+#container-location{
+width: 100%;
+height: 30%;
+display: flex;
+flex-flow: nowrap;
+}
+.container-mapsImg{
+    padding-left: 0%;
+    width: 50%;
+    background-color:#FFF;
+}
+.container-Mapsdescription{
+    padding-right:0%;
+    width: 50%;
+    background-color: #FFF;
+}
+h3{
+    color: #EB43A3;
+    font-size: medium;
+    font-family:"Courgette", cursive ; 
+}
+#button{
+    color: #FFF;
+    font-family:"Arial", sans-serif;
+    width: 30%;
+    height: 3%;
+    background-color: #C55394;
+}
+#footer{
+    background-color: #C55394;
+    padding: 1%;
+    font-family:"Arial", sans-serif ;
+    font-size: smaller;
+    color:#FFF;
+    text-align: right;  
+}
+
